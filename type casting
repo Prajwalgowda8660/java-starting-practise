@@ -1,0 +1,26 @@
+package info;
+
+public class Public {
+public static void main(String[] args) {
+	int a=10;
+	double d =a;  //widening
+	System.out.println(d);
+	
+}
+}
+
+//NARROWING
+package info;
+
+public class Public {
+	
+	
+public static void main(String[] args) {
+	
+	
+	double d=10.5855;
+	int a =(int) d;    //narrowing
+	System.out.println(a);
+	
+}
+}
