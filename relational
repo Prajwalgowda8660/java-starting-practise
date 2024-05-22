@@ -1,0 +1,14 @@
+package info;
+
+public class Public {
+public static void main(String[] args) {
+	//relational
+	System.out.println(18>7);
+	System.out.println(10==10);
+	System.out.println('a'=='b');
+	System.out.println("hi"=="hi");
+	System.out.println(100>=100);
+	System.out.println("============");
+	System.out.println(100!=88);
+}
+}
