@@ -1,0 +1,17 @@
+package info;
+
+public class meyhods {
+	static void num(int a,int b)
+	{
+		
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+	}
+	public static void main(String[] args) {
+		num(10,20);
+		
+	}
+}
