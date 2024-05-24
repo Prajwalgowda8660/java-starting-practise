@@ -1,0 +1,26 @@
+package info;
+
+public class User {
+	public static void main(String[] args) {
+		Mobile.brand="android";
+		Mobile m1=new Mobile();
+		m1.name="vivo";
+		m1.price=8999;
+
+		Mobile m2=new Mobile();
+		m2.name="realme";
+		m2.price=15000;
+
+
+		System.out.println("------mobile1-------");
+		System.out.println(m1.brand);
+		System.out.println(m1.name);
+		System.out.println(m1.price);
+		System.out.println("-------mobile2-----");
+		System.out.println(m2.brand);
+		System.out.println(m2.name);
+		System.out.println(m2.price);
+
+	}
+
+}
