@@ -3,7 +3,7 @@ package info;
 public class Switch {
 
 	public static void main(String[] args) {
-		int x=6;
+		int x=9;
 		switch(x) {
 		case 1:
 			System.out.println("sunday");
@@ -27,7 +27,8 @@ public class Switch {
 		case 7:
 			System.out.println("sat");
 			break;
-
+        default:
+        	System.out.println("enter valid input");
 
 		}
 	}
