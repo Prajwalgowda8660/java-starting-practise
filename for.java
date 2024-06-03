@@ -1,0 +1,14 @@
+package info;
+
+public class Practice19 {
+	public static void main(String[] args) {
+		for(int i=0;i<4;i++)
+		{
+			System.out.println("hi"+i);
+		}
+		for(int j=1;j<=9;j++)
+		{
+			System.out.println("  "+(j+8)+ "-"+(j+9));
+		}
+	}
+}
