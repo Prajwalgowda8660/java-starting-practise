@@ -3,7 +3,7 @@ class Prajwal
 {
 	int price;
 	String brand;
-	String name;
+	static String name;
 
 	public void show()
 	{
@@ -15,13 +15,13 @@ public class Three7 {
 		Prajwal m1=new Prajwal();
 		m1.brand="Realme";
 		m1.price=12000;
-		m1.name="Smart phone";
+		Prajwal.name="Smart phone";
 
 		Prajwal m2=new Prajwal();
 		m2.brand="apple";
 		m2.price=18000;
-		m2.name="Smart phone";
-		m1.name="phone";
+		Prajwal.name="Smart phone";
+		Prajwal.name="phone";
 		m1.show();
 		m2.show();
 
