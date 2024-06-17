@@ -5,7 +5,6 @@ public class Animal {
 	int legs;
 }
 
-
 //
 package info;
 
